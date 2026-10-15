@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store </title>
+    <meta name="description"
+        content="Discover modern fashion, everyday essentials, and the latest clothing collections.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                FASHION BY AFFAN<span>.</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#men">Men</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#women">Women</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kids">Kids</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav-buttons">
+                    <a href="pages/login.html" class="btn btn-outline-dark rounded-pill">
+                        <i class="fa-regular fa-user"></i> Login
+                    </a>
+
+                    <a href="pages/signup.html" class="btn btn-dark rounded-pill">
+                        Sign Up
+                    </a>
+
+                    <a href="#products" class="bag-icon" aria-label="Shop products">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+                    <p class="small-heading">NEW COLLECTION 2026</p>
+
+                    <h1>
+                        Discover Your<br>
+                        <span>Perfect Style</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Find your favourite looks with our latest collection
+                        of stylish, comfortable and modern fashion.
+                    </p>
+
+                    <a href="#products" class="main-btn">
+                        Shop Now <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <div class="hero-stats">
+                        <div>
+                            <h4>500+</h4>
+                            <p>Products</p>
+                        </div>
+
+                        <div>
+                            <h4>200+</h4>
+                            <p>Happy Customers</p>
+                        </div>
+
+                        <div>
+                            <h4>50+</h4>
+                            <p>New Styles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="hero-image"
+                        src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1000&q=85"
+                        alt="Clothing store with stylish fashion on display">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Categories -->
+    <section class="section-space" id="categories">
+        <div class="container">
+
+            <div class="section-title">
+                <p class="small-heading">EXPLORE OUR COLLECTION</p>
+                <h2>Shop By Category</h2>
+                <p>Find the right style for every occasion.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <a href="#men" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80"
+                            alt="Men's fashion">
+
+                        <div class="category-caption">
+                            <h3>Men's Fashion</h3>
+                            <span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#women" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=700&q=80"
+                            alt="Women's fashion">
+
+                        <div class="category-caption">
+                            <h3>Women's Fashion</h3>
+                            <span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="#kids" class="category-card">
+                        <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=700&q=80"
+                            alt="Kids' fashion">
+
+                        <div class="category-caption">
+                            <h3>Kids' Fashion</h3>
+                            <span>Explore Collection <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Products -->
+    <section class="section-space products-section" id="products">
+        <div class="container">
+
+            <div class="section-title">
+                <p class="small-heading">OUR FAVOURITES</p>
+                <h2>Featured Products</h2>
+                <p>Discover some of our favourite styles.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-6 col-lg-3">
+                    <div class="product-card">
+                        <div class="product-photo">
+                            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
+                                alt="Classic white T-shirt">
+                            <span class="product-tag">NEW</span>
+                        </div>
+
+                        <div class="product-details">
+                            <p>Men's Clothing</p>
+                            <h5>Classic White T-Shirt</h5>
+                            <strong>Rs. 1,499</strong>
+                            <a href="pages/login.html" class="product-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="product-card">
+                        <div class="product-photo">
+                            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80"
+                                alt="Women's denim jeans">
+                            <span class="product-tag">SALE</span>
+                        </div>
+
+                        <div class="product-details">
+                            <p>Women's Clothing</p>
+                            <h5>Casual Denim Jeans</h5>
+                            <strong>Rs. 2,499</strong>
+                            <a href="pages/login.html" class="product-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="product-card">
+                        <div class="product-photo">
+                            <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=600&q=80"
+                                alt="Casual shirt">
+                        </div>
+
+                        <div class="product-details">
+                            <p>Men's Clothing</p>
+                            <h5>Everyday Casual Shirt</h5>
+                            <strong>Rs. 1,999</strong>
+                            <a href="pages/login.html" class="product-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="product-card">
+                        <div class="product-photo">
+                            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80"
+                                alt="Women's fashion outfit">
+                        </div>
+
+                        <div class="product-details">
+                            <p>Women's Clothing</p>
+                            <h5>Modern Fashion Outfit</h5>
+                            <strong>Rs. 2,999</strong>
+                            <a href="pages/login.html" class="product-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Men Collection -->
+    <section class="collection-section" id="men">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+                    <img class="collection-image"
+                        src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=85"
+                        alt="Men's style collection">
+                </div>
+
+                <div class="col-lg-6 collection-text">
+                    <p class="small-heading">EVERYDAY STYLE</p>
+                    <h2>Men's Collection</h2>
+
+                    <p>
+                        Discover comfortable T-shirts, stylish shirts,
+                        jeans and everyday essentials for your wardrobe.
+                    </p>
+
+                    <a href="#products" class="main-btn">
+                        Explore Men <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Women Collection -->
+    <section class="collection-section women-section" id="women">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6 collection-text">
+                    <p class="small-heading">FASHION THAT INSPIRES</p>
+                    <h2>Women's Collection</h2>
+
+                    <p>
+                        Explore modern outfits and stylish essentials
+                        that help you express your personal style.
+                    </p>
+
+                    <a href="#products" class="main-btn">
+                        Explore Women <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="collection-image"
+                        src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=85"
+                        alt="Women's clothing collection">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Kids Collection -->
+    <section class="collection-section" id="kids">
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+                    <img class="collection-image"
+                        src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1000&q=85"
+                        alt="Kids' clothing collection">
+                </div>
+
+                <div class="col-lg-6 collection-text">
+                    <p class="small-heading">LITTLE STYLES, BIG SMILES</p>
+                    <h2>Kids' Collection</h2>
+
+                    <p>
+                        Find colourful, comfortable and fun clothing
+                        for little ones and everyday adventures.
+                    </p>
+
+                    <a href="#products" class="main-btn">
+                        Explore Kids <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Benefits -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="row g-4 text-center">
+
+                <div class="col-6 col-lg-3">
+                    <i class="fa-solid fa-truck-fast benefit-icon"></i>
+                    <h5>Delivery Service</h5>
+                    <p>Convenient delivery options</p>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <i class="fa-solid fa-rotate-left benefit-icon"></i>
+                    <h5>Easy Returns</h5>
+                    <p>Simple return process</p>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <i class="fa-solid fa-lock benefit-icon"></i>
+                    <h5>Secure Shopping</h5>
+                    <p>Shop with confidence</p>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <i class="fa-solid fa-headset benefit-icon"></i>
+                    <h5>Customer Support</h5>
+                    <p>Help when you need it</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container text-center">
+
+            <p class="small-heading">STAY IN STYLE</p>
+            <h2>Join WITH US</h2>
+
+            <p>Get updates about new collections and special offers.</p>
+
+            <form class="newsletter-form" action="#" method="get">
+                <input type="email" name="email" placeholder="Enter your email address" aria-label="Email address"
+                    required>
+
+                <button type="submit" class="main-btn">Subscribe</button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+                    <a href="index.html" class="footer-logo">FASHION<span>.</span></a>
+
+                    <p class="footer-description">
+                        Discover your personal style with our latest
+                        fashion collections and everyday essentials.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.pinterest.com/" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h5>Quick Links</h5>
+                    <a href="#home">Home</a>
+                    <a href="#categories">Categories</a>
+                    <a href="#products">Products</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <h5>Collections</h5>
+                    <a href="#men">Men's Fashion</a>
+                    <a href="#women">Women's Fashion</a>
+                    <a href="#kids">Kids' Fashion</a>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <h5>My Account</h5>
+                    <a href="pages/login.html">Login</a>
+                    <a href="pages/signup.html">Create Account</a>
+                    <a href="#products">Shop Now</a>
+                </div>
+
+            </div>
+
+            <hr class="footer-line">
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fashion Store. All rights reserved.</p>
+                <p>Made with <i class="fa-solid fa-heart"></i> for fashion lovers.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript for the mobile navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
